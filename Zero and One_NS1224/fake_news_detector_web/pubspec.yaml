@@ -1,0 +1,36 @@
+name: fake_news_detector_web
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.0-165.1.beta <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.1
+  http: ^0.13.5
+  flutter_switch: ^0.3.2
+
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/inter.ttf
