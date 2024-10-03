@@ -35,10 +35,5 @@ False Information Flagger is a comprehensive tool designed to detect and flag fa
 - FastAPI
 - TensorFlow, Scikit-learn, and other dependencies
 
-### Installation
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/your-repo/false-information-flagger.git
-   cd false-information-flagger
 
