@@ -20,3 +20,25 @@ False Information Flagger is a comprehensive tool designed to detect and flag fa
 - **Other Tools**: (Include any other tools or libraries used, such as TensorFlow, Scikit-learn, etc.)
 
 ## Project Architecture
+
++----------------+ +-------------------+ +--------------------------+ | Flutter App | <--> | FastAPI Backend | <--> | ML Models (LSTM, LR, NB)| +----------------+ +-------------------+ +--------------------------+
+
+1. **Flutter App**: The user interacts with the application through the Flutter-based UI.
+2. **FastAPI Backend**: The backend handles API requests and interacts with the machine learning models.
+3. **ML Models**: These models process the text and predict the likelihood of false information.
+
+## Setup and Installation
+
+### Prerequisites
+- Flutter SDK
+- Python 3.x
+- FastAPI
+- TensorFlow, Scikit-learn, and other dependencies
+
+### Installation
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-repo/false-information-flagger.git
+   cd false-information-flagger
+
